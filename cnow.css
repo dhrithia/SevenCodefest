@@ -66,7 +66,7 @@
   position: absolute;
 }
 .home-background {
-  top: 91px;
+  top: 77px;
   left: -25px;
   width: 1557px;
   height: 313px;
@@ -99,6 +99,7 @@
   height: auto;
   position: absolute;
   font-size: 32px;
+  left: -30px;
   font-style: SemiBold;
   text-align: center;
   font-family: Comfortaa;
@@ -144,8 +145,8 @@
 .home-rectangle10 {
   top: 0px;
   left: 0px;
-  width: 401px;
-  height: 440px;
+  width: 350px;
+  height: 390px;
   position: absolute;
   border-radius: 40px;
 }
@@ -275,7 +276,7 @@
 }
 .home-question-mark {
   top: 682px;
-  left: 201px;
+  left: 178px;
   width: 153px;
   height: 153px;
   position: absolute;
