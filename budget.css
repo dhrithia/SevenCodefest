@@ -243,3 +243,10 @@
   height: 122px;
   position: absolute;
 }
+
+input {
+  background-color: transparent;
+}
+textarea:focus, input:focus{
+  outline: none;
+}
