@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "sk-proj-0eh6h3G8IjA94S0lzvw4T3BlbkFJXi1uaXwIHt5VJosNKnuZ"
+openai.api_key = "sk-proj-7iTHO2PxlvukNkdCDZ9KT3BlbkFJq1VDhqfA3v9HNyXjuJVP"
 
 def chat_with_cnow(prompt):
     response = openai.ChatCompletion.create(
