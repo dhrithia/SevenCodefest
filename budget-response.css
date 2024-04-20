@@ -220,3 +220,7 @@
   height: 1px;
   position: absolute;
 }
+
+.navbar:hover {
+  color: rgb(56, 59, 193, 1);
+}
