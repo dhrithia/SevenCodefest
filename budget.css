@@ -243,3 +243,14 @@
   height: 122px;
   position: absolute;
 }
+
+input {
+  background-color: transparent;
+}
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.navbar:hover {
+  color: rgb(56, 59, 193, 1);
+}
