@@ -333,3 +333,9 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
+/* Removes border around selected text input */
+
+textarea:focus, input:focus{
+  outline: none;
+}
