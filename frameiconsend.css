@@ -1,0 +1,30 @@
+.frameiconsend-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.frameiconsend-frameiconsend {
+  width: 44.00005340576172px;
+  height: 37.05263137817383px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.frameiconsend-vector {
+  top: 0px;
+  left: 0px;
+  width: 44px;
+  height: 37px;
+  position: absolute;
+}
+.frameiconsend-vector1 {
+  top: 18.526321411132812px;
+  left: 8.10546875px;
+  width: 36px;
+  height: 1px;
+  position: absolute;
+}

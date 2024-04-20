@@ -1,0 +1,346 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.home-home {
+  width: 100%;
+  height: 982px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.home-ellipse6 {
+  top: 491px;
+  left: -30px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+}
+.home-ellipse7 {
+  top: 591px;
+  left: -41px;
+  width: 158px;
+  height: 158px;
+  position: absolute;
+}
+.home-ellipse5 {
+  top: 833px;
+  left: -51px;
+  width: 101px;
+  height: 101px;
+  position: absolute;
+}
+.home-ellipse2 {
+  top: 203px;
+  left: 1265px;
+  width: 322px;
+  height: 322px;
+  position: absolute;
+}
+.home-ellipse3 {
+  top: 833px;
+  left: 67px;
+  width: 239px;
+  height: 239px;
+  position: absolute;
+}
+.home-ellipse1 {
+  top: 546px;
+  left: 1246px;
+  width: 322px;
+  height: 322px;
+  position: absolute;
+}
+.home-nav-bar-rect {
+  top: 0px;
+  left: -100px;
+  width: 1632px;
+  height: 91px;
+  position: absolute;
+}
+.home-background {
+  top: 77px;
+  left: -25px;
+  width: 1557px;
+  height: 313px;
+  position: absolute;
+}
+.home-text {
+  top: 175px;
+  left: 340px;
+  width: 831px;
+  height: 168px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.home-rectangle8 {
+  top: 98px;
+  left: 34px;
+  width: 780px;
+  height: 70px;
+  position: absolute;
+  border-color: rgba(86, 36, 182, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 40px;
+}
+.home-text01 {
+  color: rgba(255, 255, 255, 1);
+  width: 831px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  left: -30px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Comfortaa;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text02 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+}
+.home-text03 {
+  color: rgba(196, 166, 255, 1);
+  font-weight: 700;
+}
+.home-text05 {
+  top: 115px;
+  left: 68px;
+  color: rgba(204, 204, 204, 1);
+  width: 583px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Comfortaa;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-services-rectangles {
+  top: 470px;
+  left: 81px;
+  width: 1365px;
+  height: 440px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.home-rectangle10 {
+  top: 0px;
+  left: 0px;
+  width: 350px;
+  height: 390px;
+  position: absolute;
+  border-radius: 40px;
+}
+.home-rectangle11 {
+  top: 0px;
+  left: 482px;
+  width: 401px;
+  height: 440px;
+  position: absolute;
+  border-radius: 40px;
+}
+.home-rectangle12 {
+  top: 0px;
+  left: 964px;
+  width: 401px;
+  height: 440px;
+  position: absolute;
+  border-radius: 40px;
+}
+.home-text07 {
+  top: 65px;
+  left: 52px;
+  color: rgba(255, 255, 255, 1);
+  width: 290px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Comfortaa;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text09 {
+  top: 93px;
+  left: 530px;
+  color: rgba(255, 255, 255, 1);
+  width: 290px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Comfortaa;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text11 {
+  top: 93px;
+  left: 1020px;
+  color: rgba(255, 255, 255, 1);
+  width: 290px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Comfortaa;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text13 {
+  top: 37px;
+  left: 278px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Comfortaa;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text15 {
+  top: 37px;
+  left: 421px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Comfortaa;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text17 {
+  top: 37px;
+  left: 549px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Comfortaa;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text19 {
+  top: 37px;
+  left: 668px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Comfortaa;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-question-mark {
+  top: 682px;
+  left: 178px;
+  width: 153px;
+  height: 153px;
+  position: absolute;
+}
+.home-estimate {
+  top: 682px;
+  left: 679px;
+  width: 153px;
+  height: 153px;
+  position: absolute;
+}
+.home-phone {
+  top: 682px;
+  left: 1169px;
+  width: 153px;
+  height: 153px;
+  position: absolute;
+}
+.home-line2 {
+  top: 399px;
+  left: 0px;
+  width: 1512px;
+  height: 1px;
+  position: absolute;
+}
+.home-logo {
+  top: 16px;
+  left: 40px;
+  width: 171.0000762939453px;
+  height: 67px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.home-screenshot20240420at1021 {
+  top: 0px;
+  left: 14.000077247619629px;
+  width: 157px;
+  height: 67px;
+  position: absolute;
+}
+.home-text21 {
+  left: 2.2884511947631836px;
+  color: rgba(0, 124, 134, 1);
+  width: 41px;
+  height: auto;
+  position: absolute;
+  font-size: 60px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lilita One;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+/* Removes border around selected text input */
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.navbar:hover {
+  color: rgb(56, 59, 193, 1);
+}

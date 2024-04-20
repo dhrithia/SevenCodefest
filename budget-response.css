@@ -1,0 +1,226 @@
+.budget-response-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.budget-response-budget-response {
+  width: 100%;
+  height: 982px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(0deg, rgba(224, 216, 242, 1) 7%, rgba(239, 235, 248, 1) 29%, rgba(255, 255, 255, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.budget-response-ellipse1 {
+  top: 518px;
+  left: -158px;
+  width: 322px;
+  height: 322px;
+  position: absolute;
+}
+.budget-response-ellipse2 {
+  top: 0px;
+  left: 1303px;
+  width: 219px;
+  height: 219px;
+  position: absolute;
+}
+.budget-response-ellipse6 {
+  top: 253px;
+  left: 1402px;
+  width: 219px;
+  height: 219px;
+  position: absolute;
+}
+.budget-response-ellipse3 {
+  top: -7px;
+  left: 935px;
+  width: 330px;
+  height: 330px;
+  position: absolute;
+}
+.budget-response-ellipse5 {
+  top: 789px;
+  left: 133px;
+  width: 101px;
+  height: 101px;
+  position: absolute;
+}
+.budget-response-line1 {
+  top: 93px;
+  left: 0px;
+  width: 1512px;
+  height: 1px;
+  position: absolute;
+}
+.budget-response-rectangle7 {
+  top: 0px;
+  left: 0px;
+  width: 1512px;
+  height: 91px;
+  position: absolute;
+}
+.budget-response-rectangle5 {
+  top: 59px;
+  left: 65px;
+  width: 4px;
+  height: 3px;
+  position: absolute;
+  border-radius: 1.600000023841858px 0 0;
+}
+.budget-response-text {
+  top: 37px;
+  left: 278px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Comfortaa;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.budget-response-text02 {
+  top: 37px;
+  left: 421px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Comfortaa;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.budget-response-text04 {
+  top: 37px;
+  left: 549px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Comfortaa;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.budget-response-text06 {
+  top: 37px;
+  left: 668px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Comfortaa;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.budget-response-text08 {
+  top: 203px;
+  left: 206px;
+  width: 1092px;
+  height: 637px;
+  display: flex;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(200, 172, 255, 1) 0%, rgba(0, 124, 134, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.budget-response-text09 {
+  top: 66px;
+  left: 308px;
+  color: rgba(86, 36, 182, 1);
+  width: 475px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Comfortaa;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.budget-response-logo {
+  top: 16px;
+  left: 40px;
+  width: 171.0000762939453px;
+  height: 67px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.budget-response-screenshot20240420at1021 {
+  top: 0px;
+  left: 14.000077247619629px;
+  width: 157px;
+  height: 67px;
+  position: absolute;
+}
+.budget-response-text11 {
+  left: 2.2884511947631836px;
+  color: rgba(0, 124, 134, 1);
+  width: 41px;
+  height: auto;
+  position: absolute;
+  font-size: 60px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Lilita One;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.budget-response-line3 {
+  top: 432px;
+  left: 301px;
+  width: 909px;
+  height: 1px;
+  position: absolute;
+}
+.budget-response-line4 {
+  top: 529px;
+  left: 302px;
+  width: 909px;
+  height: 1px;
+  position: absolute;
+}
+.budget-response-line5 {
+  top: 626px;
+  left: 302px;
+  width: 909px;
+  height: 1px;
+  position: absolute;
+}
+.budget-response-line6 {
+  top: 723px;
+  left: 302px;
+  width: 909px;
+  height: 1px;
+  position: absolute;
+}
+
+.navbar:hover {
+  color: rgb(56, 59, 193, 1);
+}
