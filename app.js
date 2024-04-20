@@ -1,9 +1,11 @@
 import OpenAI from 'openai';
 import { createRequire } from "module";
+jQuery.support.cors = true;
+
 const require = createRequire(import.meta.url);
 
 const openai = new OpenAI({
-    
+    apiKey: "sk-proj-0eh6h3G8IjA94S0lzvw4T3BlbkFJXi1uaXwIHt5VJosNKnuZ"
     //apiKey: process.env.OPENAI_API_KEY // This is also the default, can be omitted
 });
 
@@ -13,7 +15,7 @@ require('dotenv').config();
 const express = require('express');
 const path = require('path');
 const app = express();
-const port = 8080 || process.env.PORT
+//const port = 8080 || process.env.PORT
 
 app.use(express.json());
 app.use(express.static('public'));
@@ -32,7 +34,7 @@ app.get('/', async (res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.post('/chat', async (req) => {
+app.post('/chat', async (req, res) => {
     const messages = req.body.messages;
     const model = req.body.model;
     const temp = req.body.temp;
@@ -42,14 +44,14 @@ app.post('/chat', async (req) => {
             max_tokens: 30,
             messages,
             temperature: temp
+
     })
-    })
-    //res.status(200).json({result: completion.data.choices});
 
-
-
+    res.status(200).json({result: completion.data.choices});
+})
     
 
+
 app.listen(port, () => {
-    console.log('Example app listening on port ${port}')
+    console.log(`Example app listening on port ${port}`)
 });
