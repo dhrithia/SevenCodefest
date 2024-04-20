@@ -250,3 +250,7 @@ input {
 textarea:focus, input:focus{
   outline: none;
 }
+
+.navbar:hover {
+  color: rgb(56, 59, 193, 1);
+}

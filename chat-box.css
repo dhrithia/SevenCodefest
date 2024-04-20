@@ -400,3 +400,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
+.navbar:hover {
+  color: rgb(56, 59, 193, 1);
+}
