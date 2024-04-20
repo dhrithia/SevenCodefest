@@ -153,7 +153,7 @@
       ><link href="./budget.css" rel="stylesheet" /><div
         class="budget-container"
         ><div class="budget-budget"
-          ><img
+          ><a href = "cnow.html"><img
             src="external/ellipse24094-7hw2-400w.png"
             alt="Ellipse24094"
             class="budget-ellipse2" /><img
@@ -165,21 +165,53 @@
               alt="Screenshot20240420at1021394"
               class="budget-screenshot20240420at1021"
             /><span class="budget-text">C</span></div
-          ><span class="budget-text01"><span>internet</span></span
+          ></a><span class="budget-text01"><span>internet</span></span
           ><span class="budget-text03"><span>mobile</span></span
           ><span class="budget-text05"><span>xfinity</span></span
-          ><img
+          >
+          <span style="text-align: center; color: #007C86; font-size: 22px; font-family: Comfortaa; font-weight: 700; word-wrap: break-word">budget</div>
+          <img
             src="external/background4084-540i-1600w.png"
             alt="Background4084"
             class="budget-background" /><div class="budget-text07"
-            ><img
-              src="external/rectangle84086-rnas-200h.png"
-              alt="Rectangle84086"
-              class="budget-rectangle8"
-            /><span class="budget-text08"
-              ><span>What is your budget for our services?</span></span
-            ><span class="budget-text10"
-              ><span>type $ amount...</span></span
+            ><span class="budget-text08"
+              ><span>Monthly Budget</span></span>
+            <span class="budget-text10">
+              <form action="" method="post">
+
+            <h3>
+                Enter your monthly income to determine monthly budget for internet and phone plan
+            </h3>
+
+            <label for="userInput">Monthly Income:</label>
+            <input type="text" id="userInput"
+                placeholder="Enter monthly income in decimal format (ie. 1000.00)"
+                required><br>
+
+            <div id="result"></div>
+
+            <input type="button" value="Submit"
+                onclick="javascript:calcBudget(document.getElementById('userInput').value)"
+            >
+        </form>
+
+        <script>
+            function isNumeric(n) {
+                return !isNaN(parseFloat(n)) && isFinite(n);
+            }
+
+            function calcBudget(userInput) {
+                if (!isNumeric(userInput) || userInput <= 0) {
+                    document.getElementById("result").innerHTML = 'Please enter a numeric value greater than 0'
+                }
+                else {
+                    var percent = 0.05;
+                    var total = userInput * percent;
+                    document.getElementById("result").innerHTML = "You should spend $" + total + " or less on internet and phone bills monthly<br>";
+                }
+            }
+        </script>
+        </span
             ></div
           ><span class="budget-text12"
             ><span class="budget-text13">BUDGET</span
