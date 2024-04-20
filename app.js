@@ -3,7 +3,7 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 
 const openai = new OpenAI({
-    apiKey: "sk-proj-0eh6h3G8IjA94S0lzvw4T3BlbkFJXi1uaXwIHt5VJosNKnuZ"
+    apiKey: 
     //apiKey: process.env.OPENAI_API_KEY // This is also the default, can be omitted
 });
 
