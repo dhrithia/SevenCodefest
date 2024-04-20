@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>
+        Monthly Budget
+    </title>
+</head>
+    <body>
+        <form action="" method="post">
+            <h1>
+                Monthly Budget
+            </h1>
+
+            <h3>
+                Enter your monthly income to determine monthly budget for internet and phone plan
+            </h3>
+
+            <label for="userInput">Monthly Income:</label>
+            <input type="text" id="userInput"
+                placeholder="Enter monthly income in decimal format (ie. 1000.00)"
+                required><br>
+
+            <div id="result"></div>
+
+            <input type="button" value="Submit"
+                onclick="javascript:calcBudget(document.getElementById('userInput').value)"
+            >
+        </form>
+
+        <script>
+            function isNumeric(n) {
+                return !isNaN(parseFloat(n)) && isFinite(n);
+            }
+
+            function calcBudget(userInput) {
+                if (!isNumeric(userInput) || userInput <= 0) {
+                    document.getElementById("result").innerHTML = 'Please enter a numeric value greater than 0'
+                }
+                else {
+                    var percent = 0.05;
+                    var total = userInput * percent;
+                    document.getElementById("result").innerHTML = "You should spend $" + total + " or less on internet and phone bills monthly<br>";
+                }
+            }
+        </script>
+    </body>
+</html>
