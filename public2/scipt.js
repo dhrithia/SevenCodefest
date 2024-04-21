@@ -2,6 +2,7 @@
 function displayMessage(message) {
     var chatBox = document.getElementById("chat-box");
     var newMessage = document.createElement("p");
+    newMessage.style.color = "blue";
     newMessage.textContent = message;
     chatBox.appendChild(newMessage);
     chatBox.scrollTop = chatBox.scrollHeight; // Scroll to bottom
@@ -27,7 +28,7 @@ function sendMessage() {
     .then(response => response.json())
     .then(data => {
         // Display bot response
-        displayMessage("Bot: " + data.response);
+        displayMessage("CNOW: " + data.response);
     })
     .catch(error => console.error("Error:", error));
 

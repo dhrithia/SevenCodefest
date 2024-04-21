@@ -28,7 +28,8 @@
   left: -100px;
   width: 1632px;
   height: 91px;
-  position: absolute;
+  overflow: hidden;
+  position: fixed;
   background-color: white;
 }
 .budget-logo {
@@ -46,16 +47,15 @@
   left: 14.000077247619629px;
   width: 157px;
   height: 67px;
-  position: fixed;
+  position: absolute;
 }
 .budget-text {
-  left: 0px;
+  left: 2.2884511947631836px;
   color: rgba(0, 124, 134, 1);
   width: 41px;
   height: auto;
-  position: fixed;
+  position: absolute;
   font-size: 60px;
-  font-style: Regular;
   text-align: left;
   font-family: Lilita One;
   font-weight: 400;
@@ -126,9 +126,8 @@
 }
 .budget-background {
   top: 77px;
-  left: -25px;
-  width: 1557px;
-  height: 313px;
+  width: 1512px;
+  height: 295px;
   position: absolute;
 }
 .budget-text07 {
