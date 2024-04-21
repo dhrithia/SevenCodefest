@@ -28,6 +28,7 @@
   left: -100px;
   width: 1634px;
   height: 91px;
+  overflow: hidden;
   position: fixed;
   background-color: white;
 }
@@ -46,16 +47,15 @@
   left: 14.000077247619629px;
   width: 157px;
   height: 67px;
-  position: fixed;
+  position: absolute;
 }
 .budget-text {
-  left: 0px;
+  left: 2.2884511947631836px;
   color: rgba(0, 124, 134, 1);
   width: 41px;
   height: auto;
-  position: fixed;
+  position: absolute;
   font-size: 60px;
-  font-style: Regular;
   text-align: left;
   font-family: Lilita One;
   font-weight: 400;
@@ -125,7 +125,7 @@
   text-decoration: none;
 }
 .budget-background {
-  top: 91px;
+  top: 77px;
   width: 1512px;
   height: 295px;
   position: absolute;
