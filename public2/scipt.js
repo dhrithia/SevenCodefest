@@ -2,7 +2,7 @@
 function displayMessage(message) {
     var chatBox = document.getElementById("chat-box");
     var newMessage = document.createElement("p");
-    newMessage.style.color = "blue";
+    newMessage.style.color = "#007c86";
     newMessage.textContent = message;
     chatBox.appendChild(newMessage);
     chatBox.scrollTop = chatBox.scrollHeight; // Scroll to bottom
