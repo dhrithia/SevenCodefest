@@ -5,7 +5,7 @@ import openai
 app = Flask(__name__)
 CORS(app)
 
-openai.api_key = "sk-proj-7iTHO2PxlvukNkdCDZ9KT3BlbkFJq1VDhqfA3v9HNyXjuJVP"
+openai.api_key = "sk-proj-aejLSCMTfiMX6NSFCUPRT3BlbkFJO6AH7MUA2di0doGgUUVl"
 
 def chat_with_cnow(prompt):
     response = openai.ChatCompletion.create(

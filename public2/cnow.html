@@ -22,10 +22,32 @@
         text-transform: none;
         letter-spacing: normal;
         line-height: 1.15;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
+        color: rgb(123, 66, 176);
+        background-color: blue;
 
-      }</style
+      }
+      
+      .message-box {
+      width: 90%; /* Adjust the width as needed */
+      max-width: 1000px; /* Set a maximum width if desired */
+      height: 400px; /* Adjust the height as needed */
+      margin: 0 auto; /* This will center the message box horizontally */
+      padding: 20px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(138, 112, 224, 0.1);
+}
+
+      .container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      </style
     ><link
       rel="stylesheet"
       href="https://unpkg.com/animate.css@4.1.1/animate.css" /><link
@@ -196,12 +218,22 @@
                 is here to help with questions about your plan. Ask away!</span
               ></span
             ><span class="home-text05">
-              <div class="chat-box" id="chat-box"></div>
+              
               <input id="user-input" placeholder="type a question..."></input><button onclick="sendMessage()">Send</button>
-              </span
-            ></div
-              class="home-rectangle12"
-            /><span class="home-text07"
+    
+              
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+
+              <div class="container">
+                <br>
+               <div class="message-box" id="chat-box"></div>
+              </div>
+              
+            <span class="home-rectangle12"></span><span class="home-text07"
             ></div
           ><span class="home-text13"><span>internet</span></span
           ><span class="home-text15"><span>mobile</span></span
@@ -219,5 +251,6 @@
           </div
         ></div
       ></div>
+      <script src="scipt.js"></script> 
   </body>
   </html>
