@@ -195,21 +195,25 @@
             <div class="budget-text07">
               <span class="budget-text08">
                 <span>Monthly Budget</span>
+                <p>
+                  Enter your monthly income to determine monthly budget for internet and phone plan
+                </p>
               </span>
+
               <span class="budget-text10">
                 <form action="" method="post">
-                  <p>
-                      Enter your monthly income to determine monthly budget for internet and phone plan
-                  </p>
-
+                  <br>
+                  <br>
                   <label for="userInput"></label>
                   <input type="text" id="userInput"
                       placeholder="Enter in decimal format (ie. 1000.00)"
-                      required><br>
-
+                      required> <br>
                   <div id="result"></div>
+                  <span class = "submit">
+                    <button type="button" onclick="javascript:calcBudget(document.getElementById('userInput').value)">Submit</button>
+                  </span>
+                </span>
 
-                  <button type="button" onclick="javascript:calcBudget(document.getElementById('userInput').value)">Submit</button>
                 </form>
 
                 <script>
@@ -224,11 +228,12 @@
                         else {
                             var percent = 0.05;
                             var total = userInput * percent;
-                            document.getElementById("result").innerHTML = "You should spend $" + total + " or less on internet and phone bills monthly<br>";
+                            var rounded_total = total.toFixed(2);
+                            document.getElementById("result").innerHTML = "You should spend $" + rounded_total + " or less on internet and phone bills monthly<br>";
                         }
                     }
                 </script>
-              </span>
+              
             </div>
           <span class="budget-text12">
             <span class="budget-text13">BUDGET</span>
