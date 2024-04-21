@@ -1,8 +1,8 @@
 .budget-container {
   width: 100%;
-  display: flex;
-  overflow: auto;
-  min-height: 100vh;
+  display: block;
+  overflow: hidden;
+  height: 100vh;
   align-items: center;
   flex-direction: column;
 }
@@ -107,15 +107,29 @@
   font-stretch: normal;
   text-decoration: none;
 }
+.budget-text09 {
+  top: 37px;
+  left: 675px;
+  color: #4c3382bc;
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Comfortaa;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
 .budget-background {
   top: 91px;
-  left: -25px;
-  width: 1557px;
-  height: 279px;
+  width: 1512px;
+  height: 295px;
   position: absolute;
 }
 .budget-text07 {
-  top: 491px;
+  top: 450px;
   left: 340px;
   width: 831px;
   height: 135px;
@@ -126,7 +140,7 @@
 }
 .budget-rectangle8 {
   top: 65px;
-  left: 34px;
+  left: 340px;
   width: 780px;
   height: 70px;
   position: absolute;
@@ -151,14 +165,14 @@
 }
 .budget-text10 {
   top: 82px;
-  left: 68px;
+  left: 15%;
   color: rgba(86, 36, 182, 0.5899999737739563);
   width: 583px;
   height: auto;
-  position: absolute;
-  font-size: 32px;
+  position: relative;
+  font-size: 24px;
   font-style: Regular;
-  text-align: left;
+  text-align: center;
   font-family: Comfortaa;
   font-weight: 400;
   line-height: normal;
@@ -166,13 +180,13 @@
   text-decoration: none;
 }
 .budget-text12 {
-  top: 188px;
-  left: 526px;
+  top: 200px;
+  left: 12%;
   color: rgba(86, 36, 182, 1);
-  width: 475px;
+  width: 1200px;
   height: auto;
   position: absolute;
-  font-size: 48px;
+  font-size: 72px;
   font-style: Bold;
   text-align: center;
   font-family: Comfortaa;
@@ -187,24 +201,26 @@
 .budget-text14 {
   color: rgba(255, 255, 255, 1);
 }
+.budget-text15 {
+  color: #4DC4CE;
+}
 .budget-ellipse6 {
   top: 491px;
   left: -30px;
-  width: 80px;
+  width: 50px;
   height: 80px;
   position: absolute;
 }
 .budget-ellipse7 {
   top: 591px;
   left: -41px;
-  width: 158px;
+  width: 117px;
   height: 158px;
   position: absolute;
 }
 .budget-ellipse5 {
   top: 833px;
-  left: -51px;
-  width: 101px;
+  width: 50px;
   height: 101px;
   position: absolute;
 }
@@ -212,13 +228,13 @@
   top: 833px;
   left: 67px;
   width: 239px;
-  height: 239px;
+  height: 149px;
   position: absolute;
 }
 .budget-ellipse1 {
   top: 546px;
   left: 1365px;
-  width: 203px;
+  width: 147px;
   height: 203px;
   position: absolute;
 }
@@ -226,7 +242,7 @@
   top: 837px;
   left: 1076px;
   width: 289px;
-  height: 289px;
+  height: 145px;
   position: absolute;
 }
 .budget-ellipse9 {
@@ -253,4 +269,21 @@ textarea:focus, input:focus{
 
 .navbar:hover {
   color: rgb(56, 59, 193, 1);
+}
+
+button {
+  background-color: #E2D7F8;
+  padding: 15px 35px;
+  border-radius: 30px;
+}
+
+#userInput {
+  border: solid;
+  border-color: #275a5f;
+  background-color: #c6e1e37b;
+  width: 560px;
+  height: 80px;
+  padding: 15px 15px;
+  border-radius: 50px;
+  margin: 40px;
 }
