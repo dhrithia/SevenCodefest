@@ -18,6 +18,7 @@ function sendMessage() {
     // Send user message to backend server
     fetch("http://127.0.0.1:5000/send_message", { // Change the URL to point to your Flask server
         method: "POST",
+        mode: 'cors',
         body: JSON.stringify({ message: userInput }),
         headers: {
             "Content-Type": "application/json"
